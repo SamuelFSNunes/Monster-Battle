@@ -1,0 +1,14 @@
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\bin\Debug\net8.0\Monster Battle.exe
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\bin\Debug\net8.0\Monster Battle.deps.json
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\bin\Debug\net8.0\Monster Battle.runtimeconfig.json
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\bin\Debug\net8.0\Monster Battle.dll
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\bin\Debug\net8.0\Monster Battle.pdb
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.AssemblyInfoInputs.cache
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.AssemblyInfo.cs
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.csproj.CoreCompileInputs.cache
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.dll
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\refint\Monster Battle.dll
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.pdb
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\Monster Battle.genruntimeconfig.cache
+C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\obj\Debug\net8.0\ref\Monster Battle.dll
