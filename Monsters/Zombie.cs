@@ -1,15 +1,16 @@
 ﻿namespace Monster_Battle.Monsters
 {
-    class Zombie : Monster
+    public class Zombie : Monster
     {
-        public Zombie() : base("Zumbi, o morto-vivo", 120, 20, 10)
+        public Zombie() : base("Zumbi, o morto-vivo", 120, 20, 10, 0) // Inclui o valor do specialAttackPoints (ajustável se necessário)
         {
         }
 
-        public override void specialAbility(Monster opponent)
+        // Sobrescrevendo a habilidade especial
+        public override void SpecialAbility(Monster opponent)
         {
             Console.WriteLine($"{name} usou sua habilidade especial: Auto-cura!");
-            health += 30;
+            ReceiveHealing(30); // Usando método para curar e notificar os observadores
             Console.WriteLine($"{name} recuperou 30 pontos de vida!");
         }
     }

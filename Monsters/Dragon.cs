@@ -1,15 +1,16 @@
 ﻿namespace Monster_Battle.Monsters
 {
-    class Dragon : Monster
+    public class Dragon : Monster
     {
-        public Dragon() : base("Spyro, o dragão", 100, 30, 10)
+        public Dragon() : base("Spyro, o dragão", 100, 30, 10, 50) // Inclui o valor do specialAttackPoints
         {
         }
 
-        public override void specialAbility(Monster opponent)
+        // Sobrescrevendo a habilidade especial
+        public override void SpecialAbility(Monster opponent)
         {
             Console.WriteLine($"{name} usou sua habilidade especial: Sopro Flamejante!");
-            opponent.health -= 40;
+            opponent.ReceiveDamage(40); // Usar o método ReceiveDamage para aplicar o dano e notificar os observadores
             Console.WriteLine($"{opponent.name} sofreu 40 de dano!");
         }
     }

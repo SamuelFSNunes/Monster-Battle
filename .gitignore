@@ -1,0 +1,66 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files.
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+.vscode/*
+.vs/*
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ============================
+# Build results
+# ============================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# Visual Studio 2019
+.vs2019/
+
+# Auto-generated VS backup files
+_ReSharper*/
+[Uu]serprefs

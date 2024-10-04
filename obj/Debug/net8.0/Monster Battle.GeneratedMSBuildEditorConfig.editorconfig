@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Monster_Battle
-build_property.ProjectDir = C:\Users\Samuel Nunes\source\repos\Monster Battle\Monster Battle\
+build_property.ProjectDir = C:\Users\Samuel Nunes\source\repos\Monster-Battle\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
