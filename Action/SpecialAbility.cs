@@ -12,8 +12,25 @@ namespace Monster_Battle.Action
     {
         public void Execute(Monster attacker, Monster target)
         {
-            Console.WriteLine($"{attacker.name} uses special ability on {target.name}!");
-            target.health -= attacker.specialAttackPoints; // Applies special damage
+            if (attacker.name == "Zumbi")
+            {
+                int healingPoints = attacker.specialAttackPoints;
+                attacker.ReceiveHealing(healingPoints);
+                Console.WriteLine($"{attacker.name} usou sua habilidade especial e se curou em {healingPoints} pontos de vida!");
+            }
+            else
+            {
+                int specialDamage = attacker.specialAttackPoints - target.defensePoints;
+                if (specialDamage > 0)
+                {
+                    target.ReceiveDamage(specialDamage);
+                    Console.WriteLine($"{attacker.name} usou uma habilidade especial em {target.name} causando {specialDamage} de dano!");
+                }
+                else
+                {
+                    Console.WriteLine($"{attacker.name} usou uma habilidade especial em {target.name}, mas não causou dano.");
+                }
+            }
         }
     }
 }

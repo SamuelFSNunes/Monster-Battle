@@ -2,7 +2,7 @@
 
 namespace Monster_Battle.Observer
 {
-    public class PlayerObserver : IObserver
+    public class HealthObserver : IObserver
     {
         void IObserver.Update(Monster monster)
         {

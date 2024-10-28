@@ -12,8 +12,17 @@ namespace Monster_Battle.Action
     {
         public void Execute(Monster attacker, Monster target)
         {
-            Console.WriteLine($"{attacker.name} attacks {target.name}!");
-            target.health -= attacker.attackPoints;
+            int damage = attacker.attackPoints - target.defensePoints;
+            if (damage > 0)
+            {
+                target.ReceiveDamage(damage);
+                Console.WriteLine($"{attacker.name} atacou {target.name} causando {damage} de dano!");
+            }
+            else
+            {
+                Console.WriteLine($"{attacker.name} atacou {target.name}, mas não causou dano.");
+            }
         }
     }
 }
+
