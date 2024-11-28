@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Monster Battle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c032694bd9c035eccc86726980774cd036e99bca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Monster Battle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Monster Battle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

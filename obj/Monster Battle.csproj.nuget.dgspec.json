@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samuel Nunes\\source\\repos\\Monster Battle\\Monster Battle\\Monster Battle.csproj": {}
+    "C:\\Users\\Samuel Nunes\\source\\repos\\Monster-Battle\\Monster Battle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samuel Nunes\\source\\repos\\Monster Battle\\Monster Battle\\Monster Battle.csproj": {
+    "C:\\Users\\Samuel Nunes\\source\\repos\\Monster-Battle\\Monster Battle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster Battle\\Monster Battle\\Monster Battle.csproj",
+        "projectUniqueName": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster-Battle\\Monster Battle.csproj",
         "projectName": "Monster Battle",
-        "projectPath": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster Battle\\Monster Battle\\Monster Battle.csproj",
+        "projectPath": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster-Battle\\Monster Battle.csproj",
         "packagesPath": "C:\\Users\\Samuel Nunes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster Battle\\Monster Battle\\obj\\",
+        "outputPath": "C:\\Users\\Samuel Nunes\\source\\repos\\Monster-Battle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samuel Nunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
