@@ -12,15 +12,31 @@ namespace Monster_Battle.Action
     {
         public void Execute(Monster attacker, Monster target)
         {
-            int damage = attacker.attackPoints - target.defensePoints;
-            if (damage > 0)
+            DiceFacade diceFacade = new DiceFacade();
+            int roll = diceFacade.Roll(20);
+            if (roll == 1)
             {
+                Console.WriteLine($"{attacker.name} atacou {target.name} mas a ataque falhou!");
+                return;
+            }
+            else if (roll == 20)
+            {
+                int damage = 2 * (attacker.attackPoints - target.defensePoints);
                 target.ReceiveDamage(damage);
-                Console.WriteLine($"{attacker.name} atacou {target.name} causando {damage} de dano!");
+                Console.WriteLine($"{attacker.name} atacou {target.name} causando acerto critico! Dando assim {damage} de dano!");
             }
             else
             {
-                Console.WriteLine($"{attacker.name} atacou {target.name}, mas não causou dano.");
+                int damage = attacker.attackPoints - target.defensePoints;
+                if (damage > 0)
+                {
+                    target.ReceiveDamage(damage);
+                    Console.WriteLine($"{attacker.name} atacou {target.name} causando {damage} de dano!");
+                }
+                else
+                {
+                    Console.WriteLine($"{attacker.name} atacou {target.name}, mas não causou dano.");
+                }
             }
         }
     }
